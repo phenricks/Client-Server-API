@@ -1,6 +1,7 @@
 package models
 
 type CurrencyQuote struct {
+	ID         string `json:"-"`
 	Code       string `json:"code"`
 	Codein     string `json:"codein"`
 	Name       string `json:"name"`
